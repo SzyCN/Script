@@ -7,12 +7,8 @@ QX 1.0.0:
 MitM = biz.caiyunapp.com
 */
 
-var body=$response[_0xe0e0[0]];
-var obj=JSON[_0xe0e0[1]](body);
-obj[_0xe0e0[3]][_0xe0e0[2]]= 1756696206;
-obj[_0xe0e0[3]][_0xe0e0[4]]= true;
-obj[_0xe0e0[3]][_0xe0e0[5]]= 1756696206;
-obj[_0xe0e0[3]][_0xe0e0[6]]= true;
-body= JSON[_0xe0e0[7]](obj);
+
+var obj=JSON.parse(body);
+obj ="svip_expired_at":"1819768206"
 $done
 ({body})
