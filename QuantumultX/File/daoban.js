@@ -4,8 +4,8 @@ https:\/\/open\.daobanzhushou\.cn\/shiftassistant\/rs\/user\/lidunka url script-
 
 
 var obj = JSON.parse($response.body);
-obj ="remainDays": 0
-     "remainMonths": 15
+obj ="remainDays": 362
+     "remainMonths": 12
     
 $done
 ({body})
