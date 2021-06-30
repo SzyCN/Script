@@ -8,7 +8,6 @@ MitM = biz.caiyunapp.com
 */
 
 
-var obj=JSON.parse(body);
-obj.data ["svip_expired_at"]= 1819768206
-$done
-({body})
+let obj=JSON.parse($response.body);
+obj.data ["svip_expired_at"]= "1819768206"
+$done({body: JSON.stringify(obj)});
